@@ -23,6 +23,12 @@ $ npm install isarray
 Then bundle for the browser with
 [browserify](https://github.com/substack/browserify).
 
+With [component](http://component.io) do
+
+```bash
+$ component install juliangruber/isarray
+```
+
 ## License
 
 (MIT)
