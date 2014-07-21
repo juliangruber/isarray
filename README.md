@@ -3,6 +3,9 @@
 
 `Array#isArray` for older browsers.
 
+[![browser support](https://ci.testling.com/juliangruber/isarray.png)
+](https://ci.testling.com/juliangruber/isarray)
+
 [![build status](https://secure.travis-ci.org/juliangruber/isarray.svg)](http://travis-ci.org/juliangruber/isarray)
 
 ## Usage
