@@ -3,6 +3,8 @@
 
 `Array#isArray` for older browsers.
 
+[![build status](https://secure.travis-ci.org/juliangruber/isarray.svg)](http://travis-ci.org/juliangruber/isarray)
+
 ## Usage
 
 ```js
