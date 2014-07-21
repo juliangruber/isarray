@@ -8,9 +8,6 @@
   },
   "homepage": "https://github.com/juliangruber/isarray",
   "main": "index.js",
-  "scripts": {
-    "test": "tap test/*.js"
-  },
   "dependencies": {},
   "devDependencies": {
     "tape": "~2.13.4"
