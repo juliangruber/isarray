@@ -20,20 +20,14 @@ console.log(isArray({})); // => false
 
 ## Installation
 
-With [npm](http://npmjs.org) do
+With [npm](https://npmjs.org) do
 
 ```bash
 $ npm install isarray
 ```
 
 Then bundle for the browser with
-[browserify](https://github.com/substack/browserify).
-
-With [component](http://component.io) do
-
-```bash
-$ component install juliangruber/isarray
-```
+[browserify](https://github.com/substack/node-browserify).
 
 ## License
 
