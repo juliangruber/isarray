@@ -9,6 +9,10 @@
 [![browser support](https://ci.testling.com/juliangruber/isarray.png)
 ](https://ci.testling.com/juliangruber/isarray)
 
+## Deprecated
+
+Just use `Array.isArray` directly.
+
 ## Usage
 
 ```js
