@@ -8,6 +8,7 @@
   },
   "homepage": "https://github.com/juliangruber/isarray",
   "main": "index.js",
+  "typings": "index.d.ts",
   "files": [
     "index.js"
   ],
