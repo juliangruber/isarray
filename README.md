@@ -1,7 +1,7 @@
 
 # isarray
 
-`Array#isArray` for older browsers.
+`Array#isArray` for older browsers and deprecated Node.js versions.
 
 [![build status](https://secure.travis-ci.org/juliangruber/isarray.svg)](http://travis-ci.org/juliangruber/isarray)
 [![downloads](https://img.shields.io/npm/dm/isarray.svg)](https://www.npmjs.org/package/isarray)
@@ -9,7 +9,7 @@
 [![browser support](https://ci.testling.com/juliangruber/isarray.png)
 ](https://ci.testling.com/juliangruber/isarray)
 
-__DEPRECATED: Just use Array.isArray directly.__
+__Just use Array.isArray directly__, unless you need to support those older versions.
 
 ## Usage
 
