@@ -1,4 +1,8 @@
+var nativeIsArray = Array.isArray;
+delete Array.isArray;
 var isArray = require('./');
+Array.isArray = nativeIsArray;
+
 var test = require('tape');
 
 test('is array', function(t){
