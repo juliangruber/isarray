@@ -9,7 +9,14 @@ test('is array (only polyfill)', function(t){
   t.notOk(isArray({}));
   t.notOk(isArray(null));
   t.notOk(isArray(false));
-  t.notOk(isArray(""));
+  t.notOk(isArray(''));
+  t.notOk(isArray('42'));
+  t.notOk(isArray(42));
+  t.notOk(isArray(34.00));
+  t.notOk(isArray(123e-5));
+  t.notOk(isArray('[]'));
+  t.notOk(isArray(undefined));
+  t.notOk(isArray(function(){}));
 
   var obj = {};
   obj[0] = true;
@@ -28,7 +35,14 @@ test('is array (native)', function(t){
   t.notOk(isArray({}));
   t.notOk(isArray(null));
   t.notOk(isArray(false));
-  t.notOk(isArray(""));
+  t.notOk(isArray(''));
+  t.notOk(isArray('42'));
+  t.notOk(isArray(42));
+  t.notOk(isArray(34.00));
+  t.notOk(isArray(123e-5));
+  t.notOk(isArray('[]'));
+  t.notOk(isArray(undefined));
+  t.notOk(isArray(function(){}));
 
   var obj = {};
   obj[0] = true;
