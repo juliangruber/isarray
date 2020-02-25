@@ -1,0 +1,4 @@
+.github
+.*
+Makefile
+test.js
