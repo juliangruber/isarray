@@ -13,6 +13,7 @@
   ],
   "devDependencies": {
     "@ljharb/eslint-config": "^21.0.0",
+    "aud": "^2.0.0",
     "eslint": "=8.8.0",
     "tape": "^5.5.3"
   },
@@ -46,6 +47,7 @@
   "scripts": {
     "pretest": "npm run lint",
     "lint": "eslint --ext=mjs,js .",
-    "test": "tape test.js"
+    "test": "tape test.js",
+    "posttest": "aud --production"
   }
 }
