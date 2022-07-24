@@ -47,7 +47,8 @@
   "scripts": {
     "pretest": "npm run lint",
     "lint": "eslint --ext=mjs,js .",
-    "test": "tape test.js",
+    "tests-only": "tape test.js",
+    "test": "npm run tests-only",
     "posttest": "aud --production"
   }
 }
