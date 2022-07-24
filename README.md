@@ -20,6 +20,10 @@ console.log(isArray([])); // => true
 console.log(isArray({})); // => false
 ```
 
+## API
+
+[Array#isArray](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray)
+
 ## Installation
 
 With [npm](https://npmjs.org) do
