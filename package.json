@@ -11,9 +11,11 @@
   "files": [
     "index.js"
   ],
-  "dependencies": {},
   "devDependencies": {
-    "tape": "~5.5.3"
+    "@ljharb/eslint-config": "^21.0.0",
+    "aud": "^2.0.0",
+    "eslint": "=8.8.0",
+    "tape": "^5.5.3"
   },
   "keywords": [
     "browser",
@@ -43,6 +45,10 @@
     ]
   },
   "scripts": {
-    "test": "tape test.js"
+    "pretest": "npm run lint",
+    "lint": "eslint --ext=mjs,js .",
+    "tests-only": "tape test.js",
+    "test": "npm run tests-only",
+    "posttest": "aud --production"
   }
 }

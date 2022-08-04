@@ -3,7 +3,7 @@
 
 `Array#isArray` for older browsers and deprecated Node.js versions.
 
-[![build status](https://secure.travis-ci.org/juliangruber/isarray.svg)](http://travis-ci.org/juliangruber/isarray)
+[![github actions][actions-image]][actions-url]
 [![downloads](https://img.shields.io/npm/dm/isarray.svg)](https://www.npmjs.org/package/isarray)
 
 [![browser support](https://ci.testling.com/juliangruber/isarray.png)
@@ -47,3 +47,5 @@ To report a security vulnerability, please use the
 [Tidelift security contact](https://tidelift.com/security).
 Tidelift will coordinate the fix and disclosure.
 
+[actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/juliangruber/isarray
+[actions-url]: https://github.com/juliangruber/isarray/actions

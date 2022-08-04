@@ -1,9 +1,11 @@
+'use strict';
+
 var isArray = require('./');
 var test = require('tape');
 
 var nativeIsArray = Array.isArray;
 
-test('is array (only polyfill)', function(t){
+test('is array (only polyfill)', function (t) {
   delete Array.isArray;
   t.ok(isArray([]));
   t.notOk(isArray({}));
@@ -16,7 +18,7 @@ test('is array (only polyfill)', function(t){
   t.notOk(isArray(123e-5));
   t.notOk(isArray('[]'));
   t.notOk(isArray(undefined));
-  t.notOk(isArray(function(){}));
+  t.notOk(isArray(function () {}));
 
   var obj = {};
   obj[0] = true;
@@ -29,7 +31,7 @@ test('is array (only polyfill)', function(t){
   t.end();
 });
 
-test('is array (native)', function(t){
+test('is array (native)', function (t) {
   Array.isArray = nativeIsArray;
   t.ok(isArray([]));
   t.notOk(isArray({}));
@@ -42,7 +44,7 @@ test('is array (native)', function(t){
   t.notOk(isArray(123e-5));
   t.notOk(isArray('[]'));
   t.notOk(isArray(undefined));
-  t.notOk(isArray(function(){}));
+  t.notOk(isArray(function () {}));
 
   var obj = {};
   obj[0] = true;
