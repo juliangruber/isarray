@@ -5,9 +5,7 @@
 
 [![github actions][actions-image]][actions-url]
 [![downloads](https://img.shields.io/npm/dm/isarray.svg)](https://www.npmjs.org/package/isarray)
-
-[![browser support](https://ci.testling.com/juliangruber/isarray.png)
-](https://ci.testling.com/juliangruber/isarray)
+[![openssf](https://api.securityscorecards.dev/projects/github.com/juliangruber/isarray/badge)](https://deps.dev/npm/isarray)
 
 __Just use Array.isArray directly__, unless you need to support those older versions.
 
