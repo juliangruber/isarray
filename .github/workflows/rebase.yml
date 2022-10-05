@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@8230315d06ad95c617244d2f265d237a1682d445 # @v3
+      - uses: actions/checkout@61b9e3751b92087fd0b06925ba6dd6314e06f089 # @v3
       - uses: ljharb/rebase@3f30d8c115145dcc562f01582f59fbeefe77c707 # @master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
