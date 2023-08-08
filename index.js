@@ -1,7 +1,5 @@
 'use strict';
 
-var toString = {}.toString;
-
-module.exports = Array.isArray || function (arr) {
-  return toString.call(arr) === '[object Array]';
-};
+module.exports = function isArray(arg){
+    return typeof arg === typeof [];
+}
