@@ -15,4 +15,4 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: ljharb/require-allow-edits@2bf6dc5607979ae0e3f8739b9f9a4018e024b9a0 # @main
+      - uses: ljharb/require-allow-edits@2341050b3af4a6198bb84559e5fc6c8bfa1f6089 # @main
