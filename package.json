@@ -48,6 +48,6 @@
     "lint": "eslint --ext=mjs,js .",
     "tests-only": "tape test.js",
     "test": "npm run tests-only",
-    "posttest": "npx npm@'>=10.2' audit"
+    "posttest": "npx npm@'>=10.2' audit --production"
   }
 }
