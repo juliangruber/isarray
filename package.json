@@ -4,7 +4,7 @@
   "version": "2.0.5",
   "repository": {
     "type": "git",
-    "url": "https://github.com/juliangruber/isarray.git"
+    "url": "git+ssh://github.com/juliangruber/isarray.git"
   },
   "homepage": "https://github.com/juliangruber/isarray",
   "main": "index.js",
