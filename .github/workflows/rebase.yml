@@ -17,6 +17,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
-      - uses: ljharb/rebase@3f30d8c115145dcc562f01582f59fbeefe77c707 # @master
+      - uses: ljharb/rebase@c6bd0a72b14dfaf76ad6a070029c8b4592d03eea # @master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
